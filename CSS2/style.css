@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(240, 128, 128);
+    background-image: url("assets/Cinema.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.header{
+    text-align: justify;
+    color: rgb(191, 255, 247);
+    text-shadow: 0 4px 2px rgb(68, 5, 0);
+    
+}
+
+.subtit{
+    font-style: italic;
+    color: rgb(235, 235, 235);
+    text-shadow: rgb(230, 226, 226);
+    text-align: justify;
+}
+
+.destaque{
+    font-style: normal;
+    font: bold;
+    color: rgb(230, 230, 13);
+
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgb(25, 0, 255);
+    width: 300px;
+    border-radius: 5px;
+    background-color: yellow;
+    margin: 1rem;
+}
+
+
+
+.tabela{
+    border-collapse:collapse; 
+    width: 60%;
+    display: inline-block;
+}
+.tabela th, tabela td{
+    border: 1px solid rgb(255, 217, 0);
+    padding: 9px;
+    text-align: left;
+}
+
+.tabela tr:nth-child(even){
+    background-color: brown;
+}
+
+.link{
+    color: white;
+
+}
+
+.detalhes td{
+    background-color: rgb(89, 90, 90);
+    color: yellow;
+
+}
+
+
+sec1{
+    scroll-behavior: smooth;
+
+}
+
+sec2{
+    scroll-behavior: smooth;
+
+}
+
+sec3{
+    scroll-behavior: smooth;
+
+}
